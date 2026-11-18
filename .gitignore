@@ -221,3 +221,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# تجاهل ملفات البيانات الضخمة
+*.csv
+*.parquet
+*.zip
+data/
+!results/*.csv
